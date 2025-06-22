@@ -315,7 +315,17 @@ Check if the `3rdParty_DIR` path is correctly set:
 ```bash
 cmake -D3rdParty_DIR=/absolute/path/to/3rdparty ..
 ```
-
+## 7. Citation
+If you use this tool in your work, please cite this project.
+~~~bibtex
+@misc{wangwei2025inferx,
+  title        = {InferX: A High-Performance AI Inference Framework for Computer Vision},
+  author       = {Wang, Wei},  
+  howpublished = {GitHub},   
+  year         = {2025},
+  note         = {\url{https://github.com/nexlab-wang/InferX.git}}
+}
+~~~
 ---
 
 <p align="center">
@@ -336,4 +346,3 @@ cmake -D3rdParty_DIR=/absolute/path/to/3rdparty ..
     </tr>
   </table>
 </p>
-```

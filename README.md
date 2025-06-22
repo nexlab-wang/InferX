@@ -316,7 +316,17 @@ trtexec.exe --onnx=model.onnx --saveEngine=model.engine --minShapes=images:1x3x6
 ```bash
 cmake -D3rdParty_DIR=/absolute/path/to/3rdparty ..
 ```
-
+## 7. 引用
+如果您在工作中使用了这个工具，请引用这个项目。
+~~~bibtex
+@misc{wangwei2025inferx,
+  title        = {InferX: A High-Performance AI Inference Framework for Computer Vision},
+  author       = {Wang, Wei},  
+  howpublished = {GitHub},   
+  year         = {2025},
+  note         = {\url{https://github.com/nexlab-wang/InferX.git}}
+}
+~~~
 ---
 
 <p align="center">
