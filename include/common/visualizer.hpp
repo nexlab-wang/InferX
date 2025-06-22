@@ -158,14 +158,13 @@ namespace NexLab {
             // 显示处理后的帧
             std::string window_name = "Frame " + std::to_string(i);
             cv::imshow(window_name, frame);
-            cv::waitKey(0);
-            // int key = cv::waitKey(delay);
+            int key = cv::waitKey(delay);
 
-            // cv::destroyWindow(window_name);
+            cv::destroyWindow(window_name);
 
-            // if (key == 'q') {
-            //     should_exit = true;
-            // }
+            if (key == 'q') {
+                should_exit = true;
+            }
         }
 
         cv::destroyAllWindows();
