@@ -1,0 +1,9 @@
+{
+    "dataset_path": "F:\\Studio\\Code\\DeepLearning\\ultralytics\\datasets\\coco128\\images\\train2017",
+    "dev_type": "DEV_GPU",
+    "enable_visualization": true,
+    "infer_engine": "TensorRT",
+    "model_path": "F:\\Studio\\inferx\\models\\tensorrt\\rtdetr-l.trt",
+    "model_type": "RT_DETR",
+    "params_path": "F:\\Studio\\inferx\\config\\rt-detr.json"
+}
